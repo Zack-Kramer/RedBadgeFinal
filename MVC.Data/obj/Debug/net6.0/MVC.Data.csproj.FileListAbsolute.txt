@@ -1,0 +1,14 @@
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/bin/Debug/net6.0/MVC.Data.deps.json
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/bin/Debug/net6.0/MVC.Data.runtimeconfig.json
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/bin/Debug/net6.0/MVC.Data.dll
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/bin/Debug/net6.0/MVC.Data.pdb
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/obj/Debug/net6.0/MVC.Data.csproj.AssemblyReference.cache
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/obj/Debug/net6.0/MVC.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/obj/Debug/net6.0/MVC.Data.AssemblyInfoInputs.cache
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/obj/Debug/net6.0/MVC.Data.AssemblyInfo.cs
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/obj/Debug/net6.0/MVC.Data.csproj.CoreCompileInputs.cache
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/obj/Debug/net6.0/MVC.Data.dll
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/obj/Debug/net6.0/refint/MVC.Data.dll
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/obj/Debug/net6.0/MVC.Data.pdb
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/obj/Debug/net6.0/MVC.Data.genruntimeconfig.cache
+/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC.Data/obj/Debug/net6.0/ref/MVC.Data.dll

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVC.Data\MVC.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="CardModels\" />
+    <None Remove="_CreatureModels\" />
+    <None Remove="_TableModels\" />
+    <None Remove="_LandModels\" />
+    <None Remove="_UserModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="_CardModels\" />
+    <Folder Include="_CreatureModels\" />
+    <Folder Include="_TableModels\" />
+    <Folder Include="_LandModels\" />
+    <Folder Include="_UserModels\" />
+  </ItemGroup>
+</Project>

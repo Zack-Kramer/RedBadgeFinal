@@ -1,0 +1,50 @@
+﻿@using MVC.Models._LandModels
+
+@model LandDetail
+
+@{
+    ViewData["Title"] = Model.Color;
+}
+
+<h1>@Model.Color</h1>
+<hr />
+
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Id)
+    </dt>
+    <dt class="col-sm-10">
+        @Html.DisplayFor(model => model.Id)
+    </dt>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Color)
+    </dt>
+    <dt class="col-sm-10">
+        @Html.DisplayFor(model => model.Color)
+    </dt>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Effect)
+    </dt>
+    <dt class="col-sm-10">
+        @Html.DisplayFor(model => model.Effect)
+    </dt>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Rarity)
+    </dt>
+    <dt class="col-sm-10">
+        @Html.DisplayFor(model => model.Rarity)
+    </dt>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Mana)
+    </dt>
+    <dt class="col-sm-10">
+        @Html.DisplayFor(model => model.Mana)
+
+    </dt>
+</dl>
+
+<div>
+    <a asp-action="Edit" asp-route-id=@Model.Id>Edit</a>
+    <a asp-action="Index">Back To List</a>
+
+</div>

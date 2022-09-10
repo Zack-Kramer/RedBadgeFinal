@@ -1,0 +1,70 @@
+﻿@using MVC.Models._LandModels
+
+@model IEnumerable<LandIndex>
+
+@{
+    ViewData["Title"] = "Land Index";
+}
+
+<h1>Land Index</h1>
+<p>
+    <a asp-action="Create">Create Land</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mana)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Color)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Effect)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rarity)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mana)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Color)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Effect)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rarity)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", "Land", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", "Land", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", "Land", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!--This all checks out, and the fact it is means our problem would be in the service layer 1:35 pm-->

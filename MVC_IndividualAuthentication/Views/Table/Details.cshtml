@@ -1,0 +1,37 @@
+﻿@using MVC.Models._TableModels
+
+@model TableDetail
+
+@{
+    ViewData["Title"] = Model.Id;
+}
+
+<h1>@Model.Id</h1>
+<hr />
+
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Id)
+    </dt>
+    <dt class="col-sm-10">
+        @Html.DisplayFor(model => model.Id)
+    </dt>
+    @*<dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Creature)
+    </dt>
+    <dt class="col-sm-10">
+        @Html.DisplayFor(model => model.Creature)
+    </dt>*@
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.CreatureId)
+    </dt>
+    <dt class="col-sm-10">
+        @Html.DisplayFor(model => model.CreatureId)
+    </dt>
+</dl>
+
+<div>
+    <a asp-action="Edit" asp-route-id=@Model.Id>Edit</a>
+    <a asp-action="Index">Back To List</a>
+
+</div>

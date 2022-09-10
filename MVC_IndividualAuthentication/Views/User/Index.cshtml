@@ -1,0 +1,39 @@
+﻿
+@using MVC.Models._UserModels
+
+@model IEnumerable<UserIndex>
+
+@{
+    ViewData["Title"] = "User Index";
+}
+
+<h1>Land Index</h1>
+<p>
+    <a asp-action="Create">Create User</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PlayerName)
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PlayerName)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", "User", new { id = item.Id }) |
+                    @Html.ActionLink("Detail", "Detail", "User", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", "User", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

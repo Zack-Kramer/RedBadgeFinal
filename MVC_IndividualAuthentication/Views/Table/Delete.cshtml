@@ -1,0 +1,35 @@
+﻿@using MVC.Models._TableModels
+
+@model TableDetail
+
+<h1>Are You Sure You Want To Delete This!?</h1>
+
+<form method="post">
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dt>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Creature)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(model => model.Creature)
+        </dt>
+    </dl>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatureId)
+        </dt>
+        <dt class="col-sm-10">
+            @Html.DisplayFor(model => model.CreatureId)
+        </dt>
+    </dl>
+    <button class="btn btn-primary" type="submit">
+        submit
+    </button>
+</form>

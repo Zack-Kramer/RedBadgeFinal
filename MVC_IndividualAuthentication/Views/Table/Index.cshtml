@@ -1,0 +1,52 @@
+﻿@using MVC.Models._TableModels
+
+@model IEnumerable<TableIndex>
+
+@{
+    ViewData["Title"] = "Table Index";
+}
+
+<h1>Table Index</h1>
+<p>
+    <a asp-action="Create">Create Table</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Creature)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatureId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Creature)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatureId)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", "Table", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", "Table", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", "Table", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!--This all checks out, and the fact it is means our problem would be in the service layer 1:35 pm-->

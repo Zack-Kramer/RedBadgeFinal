@@ -1,0 +1,46 @@
+﻿@using MVC.Models._CreatureModels
+
+@model IEnumerable<CreatureIndex>
+
+@{
+    ViewData["Title"] = "Creature Index";
+}
+
+<h1>Creature Index</h1>
+<p>
+    <a asp-action="Create">Create Creature</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Color)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Color)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", "Creature", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", "Creature", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", "Creature", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!--This is bootstrap ^-->

@@ -1,0 +1,152 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVC_IndividualAuthentication
+build_property.RootNamespace = MVC_IndividualAuthentication
+build_property.ProjectDir = /Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Card/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyZC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Card/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyZC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Card/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyZC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Card/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyZC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Card/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FyZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Creature/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXR1cmUvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Creature/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXR1cmUvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Creature/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXR1cmUvRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Creature/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXR1cmUvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Creature/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3JlYXR1cmUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Land/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuZC9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Land/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuZC9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Land/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuZC9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Land/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuZC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Land/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFuZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Table/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFibGUvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Table/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFibGUvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Table/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFibGUvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Table/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFibGUvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Table/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFibGUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/User/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/zackkramer/Projects/MVC_IndividualAuthentication/MVC_IndividualAuthentication/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hnpfwka65k
